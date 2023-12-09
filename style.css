@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+body {
+    color:white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : "Poppins", sans-serif;
+}
+
+body {
+    color:white;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    filter: drop-shadow(0 0 5px #09001d);
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: fuchsia;
+}
+
+.main {
+    min-height: 100vh;
+    background: url('pexels-suzy-hazelwood-1629236.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-content {
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.home-content h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.home-content p {
+    margin-bottom: -10px;
+    font-size: 14px;
+    text-align: center;
+    text-shadow:0 0 4px #09001d;
+    margin-bottom: 25px;
+}
+
+.home-content .start-btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    width: 130px;
+    height: 40px;
+    background: rgb(255, 0, 255);
+    border: 2px solid white;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.home-content .start-btn:hover {
+    background: #09001d;
+    box-shadow: none;
+}
+
+.home-content .start-btn a {
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins";
+    text-decoration: none;
+ }
+
