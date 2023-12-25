@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    color:white;
+    color:black;
 
 }
 
@@ -28,15 +28,15 @@ body {
 
 .logo {
     font-size: 32px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: 700;
-    filter: drop-shadow(0 0 5px #09001d);
+    filter: drop-shadow(0 0 5px #ffffff);
 }
 
 .navbar a {
     font-size: 16px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: 500;
     margin-left: 15px;
@@ -45,12 +45,12 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: fuchsia;
+    color: rgb(7, 134, 104);
 }
 
 .main {
     min-height: 100vh;
-    background: url('pexels-suzy-hazelwood-1629236.jpg') no-repeat;
+    background: url('Untitled\ design.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -78,14 +78,14 @@ body {
     font-size: 40px;
     margin-bottom: -5px;
     font-weight: 700;
-    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 .home-content p {
     margin-bottom: -10px;
     font-size: calc(15px + 0.390625vw);
     text-align: center;
-    text-shadow:0 0 4px #09001d;
+    text-shadow:0 0 4px #ffffff;
     margin-bottom: 25px;
 }
 
@@ -95,7 +95,7 @@ body {
     color: white;
     width: 130px;
     height: 40px;
-    background: rgb(255, 0, 255);
+    background: rgb(7, 134, 104);
     border: 2px solid white;
     outline: none;
     border-radius: 5px;
