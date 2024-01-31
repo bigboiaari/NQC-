@@ -35,7 +35,7 @@ body {
 }
 
 .navbar a {
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: 500;
@@ -50,7 +50,7 @@ body {
 
 .main {
     min-height: 100vh;
-    background: URL("Untitled design(1)") no-repeat;
+    background: url("Untitled\ design\ \(1\).jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
